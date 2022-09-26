@@ -1,5 +1,13 @@
 # Deploying a Flask API
 
+### Notes
+`.env_file` is a hidden file and can't be pushed to git. Here is the file content. 
+
+```
+JWT_SECRET='myjwtsecret'
+LOG_LEVEL=DEBUG
+```
+
 ### EXTERNAL-IP URL
 
 http://aa1f7d9c9bdf74a0b80d3d197680a887-958205288.us-east-2.elb.amazonaws.com/
